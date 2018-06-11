@@ -1,0 +1,16 @@
+a1.o:
+file format elf32-i386
+Disassembly of section abc:
+00000000 <i>:
+0: 01 02
+add %eax,(%edx)
+2: 03
+byte 0x3
+Disassembly of section def:
+00000000 <k>:
+0: 07
+pop
+1: 08 09
+or
+%es
+%cl,(%ecx)
